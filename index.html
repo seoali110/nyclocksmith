@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locks Smith</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        header {
+            background-color: #FFFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        section {
+            padding: 50px;
+            margin-top: 60px;
+            /* Adjust margin to accommodate the fixed header */
+        }
+
+        /* Add a shadow to the header on scroll */
+        header.scrolled {
+            background-color: #ffff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .card {
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 20px rgba(0, 123, 255, 0.8), 0 0 30px rgba(0, 123, 255, 0.8);
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #333;
+            /* Adjust color as needed */
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #666;
+            /* Adjust color as needed */
+            line-height: 1.4;
+        }
+
+        /* Custom styles */
+        .blue-header a {
+            color: white;
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+
+        .blue-header {
+            background-color: #346cdb;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Blue Header -->
+    <div class="blue-header container-fluid">
+        <h1>Locksmith in New York</h1>
+    </div>
+
+    <!-- Body Content -->
+    <div class="container mt-4 p-20">
+        <h2>Step-by-Step Guide on Rekeying a Residential Lock</h2>
+    <p>Rekeying a residential lock is a practical and cost-effective way to enhance security without replacing the entire lock. As a skilled <a href="https://www.locksmith-nyc.com/">locksmith in New York</a>, here is a step-by-step guide on how to rekey a residential lock:</p>
+
+    <p><strong>1. Gather Necessary Tools:</strong> Begin by gathering the essential tools, including a plug follower, key pins, driver pins, a rekeying kit, and a key decoder. Ensure you have the correct tools for the specific lock you are rekeying.</p>
+
+    <p><strong>2. Remove the Lock Cylinder:</strong> Use a screwdriver to remove the screws from the lock's faceplate. Once the faceplate is off, use a key to turn the lock cylinder to the "access" position. This allows you to easily remove the cylinder from the lock.</p>
+
+    <p><strong>3. Take Out the Plug:</strong> With the cylinder removed, use a plug follower to push the plug out of the cylinder. This step is crucial for accessing the current pins and springs inside the lock.</p>
+
+    <p><strong>4. Remove and Replace Pins:</strong> Dump out the existing pins and springs from the plug. Use the key decoder to determine the size of the new pins needed for the rekeying. Replace each pin and spring according to the specifications provided by the key decoder.</p>
+
+    <p><strong>5. Reassemble the Lock:</strong> Place the rekeyed plug back into the cylinder and reassemble the lock in the reverse order of disassembly. Ensure all components are securely in place, and test the lock with the new key to confirm its functionality.</p>
+
+    <h2>6. Test the New Key</h2>
+    <p>Insert the new key into the lock and test its functionality. Turn the key in both directions to ensure smooth operation. If the lock operates correctly, your rekeying process has been successful. If any issues arise, double-check the placement of pins and springs, and make necessary adjustments.</p>
+
+    <h2>7. Duplicate New Keys</h2>
+    <p>Once satisfied with the rekeyed lock, consider duplicating the new keys for convenience. Provide the homeowner with the updated keys and ensure they are aware of the enhanced security measures implemented through the rekeying process.</p>
+
+    <p>By following this step-by-step guide, a locksmith in New York can effectively rekey a residential lock, providing an added layer of security without the need for a complete lock replacement.</p>
+
+    </div>
+
+    <!-- NAP Information -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Contact No</h5>
+                        <p class="card-text">(646) 781-7070</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text"> info@locksmith-nyc.com</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Address</h5>
+                        <p class="card-text">
+                            109 W 39th St,
+                            Unit Concourse 1 New York, NY 10018</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map  -->
+    <!--Google map-->
+    <div class="container mt-5">
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12089.570874707517!2d-73.996322!3d40.7533864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259820d53dc4b%3A0xfa53c461e2d8f485!2sTop%20Notch%20Locksmith%20%26%20Security!5e0!3m2!1sen!2s!4v1710349621168!5m2!1sen!2s"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!--Google Maps-->
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        // Add a class to the header when scrolling
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+</body>
+
+</html>
